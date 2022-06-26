@@ -1,0 +1,135 @@
+inventories:
+  available-auctions:
+    title: '&6Available Auctions'
+  expired-auctions:
+    title: '&6Expired Auctions'
+    items:
+  player-storage:
+    title: '&6Player Storage'
+  main:
+    title: '&6Main'
+    size: 6
+
+sub-inventories:
+  auction-bid:
+    title: '&6Auction Bid Inventory'
+    size: 4
+    items:
+      auction:
+        slot: 2
+      confirm:
+        name: '&aConfirm'
+        material: WOOL
+        slot: 1
+        data: 5
+        glow: true
+        lore:
+          - '&a'
+      cancel:
+        name: '&cCancel'
+        material: WOOL
+        slot: 3
+        data: 14
+        glow: true
+        lore:
+          - '&a'
+      money-add-1:
+        name: '&aMoney Add'
+        material: WOOL
+        slot: 0
+        data: 5
+        money: 1000
+        glow: true
+        lore:
+          - '&aAdd 1000$'
+      money-add-2:
+        name: '&aMoney Add'
+        material: WOOL
+        slot: 8
+        data: 5
+        money: 10000
+        glow: true
+        lore:
+          - '&aAdd 10000$'
+      money-remove-1:
+        name: '&cMoney remove'
+        material: WOOL
+        slot: 6
+        data: 14
+        money: -1000
+        glow: true
+        lore:
+          - '&cremove 1000$'
+      money-remove-2:
+        name: '&cMoney remove'
+        material: WOOL
+        slot: 7
+        data: 14
+        money: -10000
+        glow: true
+        lore:
+          - '&cremove 10000$'
+      fill:
+        name: '&a'
+        material: STAINED_GLASS_PANE
+        data: 15
+        glow: true
+        lore:
+          - '&a'
+
+
+
+
+utils:
+  lores:
+    available:
+      - '&f'
+      - '&6ID: &f%auction-id%'
+      - '&6Seller: &f%seller%'
+      - '&6Starting Bid: &f$%starting-bid%'
+      - '&f'
+      - '&6Buyer: &f%buyer%'
+      - '&6Current Bid: &f%current-bid%'
+      - '&6Uptime: &f%uptime%'
+      - '&f'
+      - '&aClick to purchase.'
+    bid-cooldown:
+      - '&f'
+      - '&6ID: &f%auction-id%'
+      - '&6Seller: &f%seller%'
+      - '&6Starting Bid: &f$%starting-bid%'
+      - '&f'
+      - '&6Buyer: &f%buyer%'
+      - '&6Current Bid: &f%current-bid%'
+      - '&6Uptime: &f%uptime%'
+      - '&f'
+      - '&cPlease wait %bid-uptime% to purchase.'
+    almost-finish:
+      - '&f'
+      - '&6ID: &f%auction-id%'
+      - '&6Seller: &f%seller%'
+      - '&6Starting Bid: &f$%starting-bid%'
+      - '&f'
+      - '&6Buyer: &f%buyer%'
+      - '&6Current Bid: &f%current-bid%'
+      - '&6Uptime: &f%uptime%'
+      - '&f'
+      - '&cIts too late for purchasing.'
+    expired:
+      - '&f'
+      - '&6ID: &f%auction-id%'
+      - '&6Seller: &f%seller%'
+      - '&6Starting Bid: &f$%starting-bid%'
+      - '&f'
+      - '&6Buyer: &f%buyer%'
+      - '&6Current Bid: &f%current-bid%'
+      - '&6Date: &f%date% - %time%'
+    bid:
+      - '&6ID: &f%auction-id%'
+      - '&6Seller: &f%seller%'
+      - '&6Starting Bid: &f$%starting-bid%'
+      - '&f'
+      - '&6Buyer: &f%buyer%'
+      - '&6Current Bid: &f%current-bid%'
+      - '&6'
+      - '&6Your Offer: &f%offer%'

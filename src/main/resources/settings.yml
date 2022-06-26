@@ -1,0 +1,6 @@
+auction-settings:
+  uptime: 120
+  bid-cooldown: 10
+  uptime-string: '%minute%min %second%sec'
+  invalid-buyer: 'No one'
+  invalid-current-price: 'No bid'
